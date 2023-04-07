@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  color-scheme: dark;
+}
+.bg-banner {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/905/381/275/spiderman-ps4-spiderman-games-hd-wallpaper-preview.jpg");
+  opacity: 0.9;
+}
+.bg-banner-gradient {
+  background: transparent -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 179, 255, 0.6)),
+      to(#ffffff00)
+    ) 0% 0% no-repeat;
+  background: transparent -webkit-linear-gradient(
+      top,
+      rgba(23, 5, 183, 0.6) 0%,
+      #ff000000 100%
+    ) 0% 0% no-repeat;
+  background: transparent
+    linear-gradient(180deg, rgba(8, 58, 80, 0.6) 0%, #bb000000 100%) 0% 0%
+    no-repeat;
+}
+.bg-drop-down-gradient {
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+}
+li {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 20px;
+}
+li:hover {
+  background-color: rgb(14, 0, 174);
+}
+.banner-fadeBottom {
+  height: 9.5rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.6),
+    #111
+  );
+}
